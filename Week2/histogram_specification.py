@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-input_image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week2/Resources/pic1.jpg', cv2.IMREAD_GRAYSCALE)
-reference_image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week2/Resources/example.png', cv2.IMREAD_GRAYSCALE)
+input_image = cv2.imread('/Resources/pic1.jpg', cv2.IMREAD_GRAYSCALE)
+reference_image = cv2.imread('/Resources/example.png', cv2.IMREAD_GRAYSCALE)
 
 if input_image is None or reference_image is None:
     print("Error loading images.")
