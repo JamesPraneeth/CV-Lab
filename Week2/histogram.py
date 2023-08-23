@@ -4,9 +4,9 @@ import numpy as np
 
 from matplotlib import pyplot as plt
 
-# image = cv2.imread("C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week2/Resources/pic1.jpg",1)
+# image = cv2.imread("/Resources/pic1.jpg",1)
 
-image_bw = cv2.imread("C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week2/Resources/pic1.jpg",0)
+image_bw = cv2.imread("/Resources/pic1.jpg",0)
 
 # print(image.shape)
 # cv2.imshow("Pic",image)
