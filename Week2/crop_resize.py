@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week2/Resources/pic1.jpg')
+image = cv2.imread('/Resources/pic1.jpg')
 
 # Resize the image
 new_width = 300
