@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week3/Resources/example.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('/Resources/example.png', cv2.IMREAD_GRAYSCALE)
 
 
 gradient_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)
