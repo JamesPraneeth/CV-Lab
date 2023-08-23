@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/210962162-4/Resources/example.png',0)
+img = cv.imread('/Resources/example.png',0)
 img = cv.resize(img,(1400,700))
 
 # cv.imshow('image',image)
@@ -30,7 +30,7 @@ cv.destroyAllWindows()
 # import numpy as np
 #
 # # Load an image in grayscale
-# image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/210962162-4/Resources/example.png', cv2.IMREAD_GRAYSCALE)
+# image = cv2.imread('/Resources/example.png', cv2.IMREAD_GRAYSCALE)
 # image = cv2.resize(image,(1400,700))
 #
 # # Apply thresholding using a fixed threshold value
