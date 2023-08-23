@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
 
-img = cv.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/210962162-4/Resources/example.png')
+img = cv.imread('/Resources/example.png')
 img = cv.resize(img,(1400,700))
 assert img is not None, "file could not be read, check with os.path.exists()"
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
