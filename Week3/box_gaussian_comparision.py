@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-image = cv2.imread('C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week3/Resources/example.png',0)
+image = cv2.imread('/Resources/example.png',0)
 
 
 box_filtered = cv2.boxFilter(image, -1, (5, 5))
