@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image = cv2.imread("C:/Users/ugcse.PG-CP.000/Desktop/210962162/Week3/Resources/example.png",1)
+image = cv2.imread("/Resources/example.png",1)
 
 
 img2 = cv2.resize(image,(500,500))
